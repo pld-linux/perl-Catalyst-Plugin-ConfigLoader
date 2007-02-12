@@ -6,7 +6,7 @@
 %define	pdir	Catalyst
 %define	pnam	Plugin-ConfigLoader
 Summary:	Catalyst::Plugin::ConfigLoader - load config files of various types
-Summary(pl.UTF-8):   Catalyst::Plugin::ConfigLoader - wczytywanie różnych plików konfiguracyjnych
+Summary(pl.UTF-8):	Catalyst::Plugin::ConfigLoader - wczytywanie różnych plików konfiguracyjnych
 Name:		perl-Catalyst-Plugin-ConfigLoader
 Version:	0.12
 Release:	1
