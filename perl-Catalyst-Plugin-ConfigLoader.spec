@@ -6,7 +6,7 @@
 %define	pdir	Catalyst
 %define	pnam	Plugin-ConfigLoader
 Summary:	Catalyst::Plugin::ConfigLoader - load config files of various types
-Summary(pl):	Catalyst::Plugin::ConfigLoader - wczytywanie ró¿nych plików konfiguracyjnych
+Summary(pl.UTF-8):   Catalyst::Plugin::ConfigLoader - wczytywanie rÃ³Å¼nych plikÃ³w konfiguracyjnych
 Name:		perl-Catalyst-Plugin-ConfigLoader
 Version:	0.12
 Release:	1
@@ -34,14 +34,14 @@ To support the distinction between development and production
 environments, this module will also attemp to load a local config
 (e.g. myapp_local.yaml) which will override any duplicate settings.
 
-%description -l pl
-Ten modu³ próbuje odnale¼æ i wczytaæ pliki konfiguracyjne ró¿nych
-rodzajów. Aktualnie obs³uguje formaty YAML, JSON, XML, INI i Perl.
+%description -l pl.UTF-8
+Ten moduÅ‚ prÃ³buje odnaleÅºÄ‡ i wczytaÄ‡ pliki konfiguracyjne rÃ³Å¼nych
+rodzajÃ³w. Aktualnie obsÅ‚uguje formaty YAML, JSON, XML, INI i Perl.
 
-Aby obs³u¿yæ rozró¿nienie miêdzy ¶rodowiskiem programistycznym a
-produkcyjnym, modu³ ten próbuje tak¿e wczytaæ lokalny plik
-konfiguracyjny (np. myapp_local.yaml), który przykryje wszystkie
-powtarzaj±ce siê ustawienia.
+Aby obsÅ‚uÅ¼yÄ‡ rozrÃ³Å¼nienie miÄ™dzy Å›rodowiskiem programistycznym a
+produkcyjnym, moduÅ‚ ten prÃ³buje takÅ¼e wczytaÄ‡ lokalny plik
+konfiguracyjny (np. myapp_local.yaml), ktÃ³ry przykryje wszystkie
+powtarzajÄ…ce siÄ™ ustawienia.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
