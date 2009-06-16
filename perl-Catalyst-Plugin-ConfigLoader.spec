@@ -8,21 +8,21 @@
 Summary:	Catalyst::Plugin::ConfigLoader - load config files of various types
 Summary(pl.UTF-8):	Catalyst::Plugin::ConfigLoader - wczytywanie różnych plików konfiguracyjnych
 Name:		perl-Catalyst-Plugin-ConfigLoader
-Version:	0.21
+Version:	0.23
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-authors/id/B/BR/BRICAS/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	64f68d04c8ae102a1e424324e02f1fb0
+Source0:	http://www.cpan.org/modules/by-module/Catalyst/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	0e92de2e1bf52cde8cd107ecdfd779ab
 URL:		http://search.cpan.org/dist/Catalyst-Plugin-ConfigLoader/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
-BuildRequires:	perl-Catalyst >= 5.7
-BuildRequires:	perl-Config-Any
-BuildRequires:	perl-Data-Visitor >= 0.02
-BuildRequires:	perl-Module-Pluggable >= 3.01
+BuildRequires:	perl-Catalyst >= 5.7008
+BuildRequires:	perl-Config-Any >= 0.08
+BuildRequires:	perl-Data-Visitor >= 0.24
+BuildRequires:	perl-MRO-Compat >= 0.09
 %endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -66,6 +66,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc Changes
+%doc Changes README
 %{perl_vendorlib}/Catalyst/Plugin/*.pm
 %{_mandir}/man3/*
