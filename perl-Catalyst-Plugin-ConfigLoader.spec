@@ -8,13 +8,13 @@
 Summary:	Catalyst::Plugin::ConfigLoader - load config files of various types
 Summary(pl.UTF-8):	Catalyst::Plugin::ConfigLoader - wczytywanie różnych plików konfiguracyjnych
 Name:		perl-Catalyst-Plugin-ConfigLoader
-Version:	0.27
+Version:	0.30
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Catalyst/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	f1f58fa0f4c3cfb45cc204c9ace6a09b
+# Source0-md5:	d6cd604120535d5c0ab1160c3a097187
 URL:		http://search.cpan.org/dist/Catalyst-Plugin-ConfigLoader/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
